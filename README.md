@@ -25,12 +25,14 @@ _Планируемый функционал:_
 **За основу был взят следующий [проект](https://github.com/AlexeyKutepov/exchange-rates-bot)**
 
 ### Локальная сборка и запуск
+
 ```
 mvn clean install
 mvn spring-boot:run
-> ```
+```
 
 ### Сборка и запуск docker образа
+
 ```
 docker build -t <name> .
 docker run -d <name>
