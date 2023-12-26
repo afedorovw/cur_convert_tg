@@ -48,7 +48,7 @@ out/
 ## Eclipse
 ##############################
 .settings/
-bin/
+#bin/
 tmp/
 .metadata
 .classpath
@@ -65,7 +65,7 @@ local.properties
 ## NetBeans
 ##############################
 nbproject/private/
-build/
+#build/
 nbbuild/
 dist/
 nbdist/
@@ -86,6 +86,5 @@ nb-configuration.xml
 ##############################
 ## My files
 ##############################
-Dockerfile
 src/main/resources/*
 src/test/*
